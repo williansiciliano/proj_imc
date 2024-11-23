@@ -201,7 +201,7 @@ form h1{
 	right: 1.6rem;
 	cursor: pointer;
 	border-radius: 4px;
-	transition: all .5s ease;
+	transition: background .5s ease;
 }
 
 .modal img.btn-close:hover{
@@ -249,5 +249,10 @@ form h1{
 	.inputGroup input,
 	.btn-imc{
 		width: 100%;
+	}
+
+	.modal img.btn-close {
+    top: 0.6rem;
+    right: 0.6rem;
 	}
 }
